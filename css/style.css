@@ -1,0 +1,94 @@
+@charset "utf-8";
+@import "font.css";
+@import "pc.css";
+/*모바일에서 보여짐*/
+*{margin: 0; padding: 0; box-sizing: border-box; list-style: none; text-decoration: none; font-family: 'Poppins', sans-serif;}
+a{text-decoration:none;}
+a:link{color:#666;}
+a:visited{color:#666;}
+a:hover{color:#fc6;}
+a:active{color:#666;}
+h2{
+	display:none;
+}
+
+body{
+	position:relative;
+	text-align:center;
+	max-width:100%;
+	clear:both;
+	background-image: url(../images/back.jpg);
+	background-attachment: fixed;
+	background-position:0px 0px;
+	background-repeat:no-repeat;
+}
+/*여기까지는 메뉴영역 다음은 슬라이드베너영역*/
+	#slide{
+		width:100%; height:600px; 
+		overflow:hidden; 
+		margin:0 auto;
+		position:relative;
+		top:-20px;
+	}
+	.sp1{
+		position:absolute;
+		display:block;
+		width:100%;
+		background:rgba(255,255,255,0.5);
+		top:50%;
+		transform:translateY(-50%);
+		font-size:50px;
+		font-family: 'Architects Daughter', cursive;
+		height:auto;
+		color:black;
+	}
+	.sp1 p{
+		left: 150px;
+	}
+	.slideWrap{width:8612px;} 
+	.slideWrap li{
+		width:1903px; height:600px;
+		float:left;
+	}
+	.photo{height:600px; display:block;}
+	.photo img{width:100%;
+	}
+	.slideWrap::after{
+		content:'';
+		display:block;
+		clear:both;
+		width:0; height:0;
+		visibility:hidden;
+	}
+	.product{
+		background-image:url(../images/s-banner.jpg);
+		width:100%;
+		height:600px;
+	}
+	.sp2{
+		position:absolute;
+		display:block;
+		width:100%;
+		background:rgba(255,255,255,0);
+		top:60%;
+		transform:translateY(-50%);
+		font-size:50px;
+		font-family: 'Architects Daughter', cursive;
+		height:auto;
+		color:black;
+	}
+	.sp2 p{
+		position:relative;
+		left:60%;
+		top:-70px;
+		font-size:6vh;
+		text-align: left;
+		
+	}
+	.sec3{
+		position:relative;
+		top:-25px;
+	}
+	.add_sns li a img{
+		width:50px;
+	}

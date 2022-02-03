@@ -1,0 +1,256 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>   
+   <meta name="description" content=""/>
+   <meta name="keywords" content="" />
+   <meta name="author" content=""/>
+   <meta charset="utf-8" />
+   <title> new </title>
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="http://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<script src="https://code.jquery.com/jquery-3.2.0.js" integrity="sha256-wPFJNIFlVY49B+CuAIrDr932XSb6Jk3J1M22M3E2ylQ=" crossorigin="anonymous"></script>
+   <link href="./css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<header>
+<div class="top">
+<div class="util_01">
+	<ul>
+		<li><a href="#">매장안내</a></li>
+		<li><a href="#">맴버십</a></li>
+	</ul>
+	</div>
+		<h1 title="로고">
+			<a href="#"><img src="./images/logo.png" alt="로고"/></a> 
+		</h1>
+		<div class="util_02">
+			<ul>
+				<li><a href="#">로그인</a></li>
+				<li><a href="#">회원가입</a></li>
+				<li><a href="#">장바구니</a></li>
+			</ul>
+		</div>
+	</div>
+<nav class="menu_1">
+	<ul>
+		<li><a href="#">Dalvodre Menu</a>
+			<ul class="sub">
+				<li><a href="#">초콜릿</a>
+					<ul class="order">
+						<li><a href="#">달보드레 파베초콜릿</a></li>
+						<li><a href="#">달보드레 초콜릿푸딩</a></li>
+						<li><a href="#">초콜릿 화이트</a></li>
+						<li><a href="#">초콜릿 다크</a></li>
+					</ul>
+				</li>
+				<li><a href="#">브라우니</a>
+					<ul class="order">
+						<li><a href="#">초콜릿 브라우니</a></li>
+						<li><a href="#">보스턴 브라우니</a></li>
+						<li><a href="#">뱅고르 브라우니</a></li>
+						<li><a href="#">블론디 브라우니</a></li>
+					</ul>
+				</li>
+				<li><a href="#">티라미슈</a>
+					<ul class="order">
+						<li><a href="">다크 티라미수</a></li>
+						<li><a href="#">화이트 티라미수</a></li>
+						<li><a href="#">당근 티라미수</a></li>
+						<li><a href="#">호박 티라미수</a></li>
+					</ul>
+				</li>
+				<li><a href="#">음료</a>
+					<ul class="order">
+						<li><a href="#">초콜릿 스무디</a></li>
+						<li><a href="#">화이트 스무디</a></li>
+						<li><a href="#">달보드레 클래식</a></li>
+						<li><a href="#">초코베리 스무디</a></li>
+					</ul>
+				</li>
+				<li><a href="#">초콜릿무스</a>
+					<ul class="order">
+						<li><a href="#">달보드레 시그니처무스</a></li>
+						<li><a href="#">화이트초콜릿 무스</a></li>
+						<li><a href="#">달보드레 커피무스</a></li>
+						<li><a href="#">달콤 막시무스</a></li>
+					</ul>
+				</li>
+				<li><a href="#">쿠키</a>
+					<ul class="order">
+						<li><a href="#">마카다미안 쿠키</a></li>
+						<li><a href="#">화이트마카렛 쿠키</a></li>
+						<li><a href="#">다크 쿠키</a></li>
+						<li><a href="#">달보드레클래식 쿠키</a></li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+		<li><a href="#">oline Exclusive</a>
+			<ul class="sub">
+				<li><a href="#">전체메뉴</a></li>
+			</ul>
+		</li>
+		<li><a href="#">News_Event</a>
+			<ul  class="sub">
+				<li><a href="#">미디어</a></li>
+				<li><a href="#">프로모션</a></li>
+				<li><a href="#">공지사항</a></li>
+				<li><a href="#">SNS</a></li>
+			</ul>
+		</li>
+		<li><a href="#">About Dalvodre</a>
+			<ul class="sub">
+				<li><a href="#">달보드레</a></li>
+				<li><a href="#">달보드레매장</a></li>
+			</ul>
+		</li>
+	</ul>
+	<span class="menu" id="menu_btn">
+		<span></span>
+		<span></span>
+		<span></span>
+	</span>
+</nav>
+<div>
+
+</div>
+</header>
+<div id="slide">
+	<span class="sp1"><p>I'm gonna<br/>sweet love  for yours</p></span>
+	<ul class="slideWrap">
+		<li>
+			<div class="photo">
+				<img src="./images/v-banner01.jpg" alt="slide1"/>
+			</div>
+		</li>
+		<li>
+			<div class="photo">
+				<img src="./images/v-banner02.jpg" alt="slide2"/>
+			</div>
+		</li>
+		<li>
+			<div class="photo">
+				<img src="./images/v-banner03.jpg" alt="slide3"/>
+			</div>
+		</li>
+		<li>
+			<div class="photo">
+				<img src="./images/v-banner04.jpg" alt="slide4"/>
+			</div>
+		</li>
+	</ul>
+</div>
+	<div class="sec3">
+		<h2>스페셜이벤트</h2>
+		<div class="product">
+		<span class="sp2">The  best Value<br/>best of best Gift for you!</span>
+		</div>
+	</div>
+	<section class="sns_icon">
+		<h2>sns_pic</h2>
+	</section>
+	<section>
+		<h2>option vanner</h2>
+		<p><span class="tex">Dalvodre</span></p>
+			<div class="opt">
+				<img src="./images/gift-banner03.jpg" alt="option03"/>
+			</div>
+	</section>
+	    <footer>
+	<div>
+	<h1><img src="./images/yellow-logo.png" alt="로고"></h1>
+	</div>
+        <div class="container">
+            <div class="sec sitemap">
+                <h4>site map</h4>
+                <ul>
+                    <li><a href="#">사이트맵</a></li>
+                    <li><a href="#">개인정보 취급방침</a></li>
+                    <li><a href="#">약관 계정 안내</a></li>
+                    <li><a href="#">사업자 정보</a></li>
+                    <li><a href="#">마케팅정보 / 매장오픈</a></li>
+                    <li><a href="#">채용정보</a></li>
+                </ul>
+            </div>
+			<div class="sec opening">
+                <h4>Opening TIME</h4>
+                <ul>
+                    <li><a href="#">TEL.02-222-3333</a></li>
+                    <li><a href="#">평일 AM 10:00 - PM 6:00</a></li>
+                    <li><a href="#">점심 PM 12:00 - 13:00</a></li>
+                    <li><a href="#">토, 일, 공휴일 휴무</a></li>
+                </ul>
+            </div>
+            <div class="sec contact">
+                <h4>Contact Info</h4>
+                <ul class="info">
+                    <li>
+                        <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                        <span>647 Linda Street<br>Phoenixville, PA 19460,<br>USA</span>
+                    </li>
+                    <li>
+                        <span><i class="fa fa-phone" aria-hidden="true"></i></span>
+                        <p>
+                            <a href="tel:12345678900">+1 234 567 8900</a><br>
+                            <a href="tel:12345678900">+1 234 567 8900</a>
+                        </p>
+                    </li>
+                    <li>
+                        <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                        <p><a href="mailto:rdh6327@naver.com">rdh6327@naver.com</a></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <div class="copyright">
+        <p>하누리식품 | 대표이사 : 이방계 | 서울시 강남구 도곡로 599 30층 | 개인정보관리자 : 김아무개<br/>
+TEL: 02 - 222 - 3333 | E-MAIL 문의 가능시간 : AM 10:00 - 17:00<br/>
+공정거레 위원회 고시 제 2000-1호에 따른 사업자등록번호 278455 - 88 -564531<br/>
+통신판매업신고번호 제 2022 - 서울도곡로 33273호 | 사업자정보확인</p>
+		<ul class="add_sns">
+			<li><a href="#"><img src="./images/sns_icon01.png" alt="카카오톡"></a></li>
+			<li><a href="#"><img src="./images/sns_icon02.png" alt="인스타그램"></a></li>
+			<li><a href="#"><img src="./images/sns_icon03.png" alt="카카오톡"></a></li>
+			<li><a href="#"><img src="./images/sns_icon05.png" alt="페이스북"></a></li>
+		</ul>
+
+    </div>
+<script>
+$(document).ready(function(){
+
+setInterval(function(){
+	$(".slideWrap").animate({
+		"margin-left":"-1903px"
+	},function(){
+		$(".slideWrap>li:first-child").appendTo(".slideWrap");
+		$(".slideWrap").css("margin-left","0");
+	});
+},4000);
+
+});
+
+
+$(".menu_1>ul>li").hover(function(){
+	$(this).children(".sub").stop().slideDown();
+},function(){
+	$(this).children(".sub").stop().slideUp();
+});
+
+
+$(".sub>li").hover(function(){
+	$(this).children(".order").stop().fadeIn();
+},function(){
+	$(this).children(".order").stop().fadeOut();
+});
+
+
+</script>
+</body>
+</html>
+
